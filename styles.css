@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Amatic SC', cursive;
+}
+
+.cover{
+    margin-top: 16px;
+    width: 1000px;
+    border-radius: 16px;
+    height: 360px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.btns{
+    /* display: flex;
+    justify-content: center;
+    flex-direction: row; */
+    margin: 32px 0 32px 0;
+    font-size: 20px;
+}
+
+#text{
+    margin-left: 8px;
+}
+
+a {
+    color: white;
+    font-style: none;
+    text-decoration: none;
+    margin: 16px 16px;
+    border: 1px solid #acacac;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #acacac;
+    transition: 1s;
+}
+
+a:hover{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+
+.timeline{
+    font-size: 24px;
+    padding: 10px;
+}
+
+.timeline ul li {
+    list-style: none;
+    padding-top: 8px;
+}
+
+#capaSabotage {
+    width: 324px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.discText {
+    width: 500px;
+}
+
+figcaption{
+    font-size: 16px;
+    margin-bottom: 8px;
+    margin-left: 14px;
+}
+
+.citacoes {
+    width: 400px;
+}
+
+.citacoes p {
+    line-height: 40px;
+}
+
+#sabotage{
+    width: 586px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.mortetext{
+    width: 700px;
+}
+
+.mortetext p {
+    margin: 8px
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+}
